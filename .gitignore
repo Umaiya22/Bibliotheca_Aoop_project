@@ -1,0 +1,28 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+**/application-local.properties
+**/application-prod.properties
+
+# Java / Maven
+**/target/
+**/*.class
+
+# Node
+**/node_modules/
+**/dist/
+**/dist-ssr/
+**/*.log
+
+# Local databases and runtime data
+**/data/
+**/*.db
+**/*.mv.db
+**/*.trace.db
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
