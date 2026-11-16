@@ -1349,7 +1349,7 @@ spring.h2.console.enabled=true
 spring.h2.console.path=/h2-console
 
 # Google Gemini API Configuration
-gemini.api.key=AIzaSyAL41U6vb3C9Q9l4xsd9tbkTeaU0S_tueI
+gemini.api.key=YOUR_GEMINI_API_KEY
 gemini.api.url=https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent
 ```
 
@@ -1703,7 +1703,7 @@ cd springboot/demo
 **A. Check API Key**:
 ```properties
 # Verify in application.properties
-gemini.api.key=AIzaSyAL41U6vb3C9Q9l4xsd9tbkTeaU0S_tueI
+gemini.api.key=YOUR_GEMINI_API_KEY
 ```
 
 **B. Check Backend Logs**:
